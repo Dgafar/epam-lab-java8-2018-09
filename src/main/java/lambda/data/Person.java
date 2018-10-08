@@ -3,7 +3,7 @@ package lambda.data;
 import java.util.Objects;
 
 public class Person {
-
+  
     private final String firstName;
     private final String lastName;
     private final int age;
@@ -20,6 +20,7 @@ public class Person {
 
     public String getLastName() {
         return lastName;
+
     }
 
     public int getAge() {
